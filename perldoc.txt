@@ -1,0 +1,50 @@
+PERLFINDER(1)         User Contributed Perl Documentation        PERLFINDER(1)
+
+
+
+NNAAMMEE
+       perlfinder - a GTK2/GLADE MacOS X Finder workalike
+
+SSYYNNOOPPSSIISS
+        # Start perlfinder
+        src/perlfinder
+
+DDEESSCCRRIIPPTTIIOONN
+       PerlFinder is a simple program that I was developing to make a MacOS X
+       Finder workalike.
+
+RREEQQUUIIRREESS
+       PerlFinder currently requires the following:
+
+           * Gtk2
+           * Gtk2::GladeXML
+           * XML::Simple
+
+       These can be fetched from your local CPAN mirror.
+
+LLIICCEENNSSEE
+       This program is free software; you can redistribute it and/or modify it
+       under the terms  of the GNU General Public License as published by the
+       Free Software Foundation; either version 2 of the License, or (at your
+       option) any later version.
+
+       This program is distributed in the hope that it will be useful, but
+       WITHOUT ANY WARRANTY; without even the implied warranty of MER-
+       CHANTABILITY or FITNEESS FOR A PARTICULAR PURPOSE. See the GNU General
+       Public License for more details.
+
+       You should have recieved a copy of the GNU General Public License along
+       with this program; if not, write to the Free Software Foundation, Inc.,
+       59 Temple Place, Suite 330, Boston, MA 02111-1307 USA.
+
+BBUUGGSS
+       * If you have a $HOME/.perlfinder remove it first before
+         running. There is a bug that prevents the program from running
+         completely at this point in time.
+
+AAUUTTHHOORR
+       June R. Tate <june@theonelab.com>
+
+
+
+perl v5.8.1                       2005-03-09                     PERLFINDER(1)
